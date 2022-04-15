@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "dc19053b-4a05-42fe-9e87-445c4240b478": {
+      "ProjectGuid": "dc19053b-4a05-42fe-9e87-445c4240b478",
+      "DisplayName": "Lab Abstractions",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

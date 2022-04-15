@@ -1,0 +1,17 @@
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\obj\Debug\net6.0-windows\Lab Abstractions.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\obj\Debug\net6.0-windows\Lab_Abstractions.Form1.resources
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\obj\Debug\net6.0-windows\Lab Abstractions.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\obj\Debug\net6.0-windows\Lab Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\obj\Debug\net6.0-windows\Lab Abstractions.AssemblyInfoInputs.cache
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\obj\Debug\net6.0-windows\Lab Abstractions.AssemblyInfo.cs
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\obj\Debug\net6.0-windows\Lab Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\bin\Debug\net6.0-windows\Lab Abstractions.exe
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\bin\Debug\net6.0-windows\Lab Abstractions.deps.json
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\bin\Debug\net6.0-windows\Lab Abstractions.runtimeconfig.json
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\bin\Debug\net6.0-windows\Lab Abstractions.dll
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\bin\Debug\net6.0-windows\ref\Lab Abstractions.dll
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\bin\Debug\net6.0-windows\Lab Abstractions.pdb
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\obj\Debug\net6.0-windows\Lab Abstractions.dll
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\obj\Debug\net6.0-windows\ref\Lab Abstractions.dll
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\obj\Debug\net6.0-windows\Lab Abstractions.pdb
+C:\Users\ASUS\Documents\GitHub\Lab-Abstractions\Lab Abstractions\Lab Abstractions\obj\Debug\net6.0-windows\Lab Abstractions.genruntimeconfig.cache
