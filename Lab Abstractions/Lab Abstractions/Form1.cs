@@ -15,12 +15,12 @@ namespace Lab_Abstractions
         {
             OpenFileDialog ofd = new OpenFileDialog();
             ofd.Filter = "CSV (*.csv) | *.csv";
-            if(ofd.ShowDialog() == DialogResult.OK)
+            if (ofd.ShowDialog() == DialogResult.OK)
             {
                 string[] readAlline = File.ReadAllLines(ofd.FileName);
 
                 string readAllText = File.ReadAllText(ofd.FileName);
-                for(int i = 0; i < readAlline.Length; i++)
+                for (int i = 0; i < readAlline.Length; i++)
                 {
                     string allDATARAW = readAlline[i];
                     string[] allDATASplited = allDATARAW.Split(',');
@@ -64,9 +64,9 @@ namespace Lab_Abstractions
             string Password = textBox5.Text;
             string data = " NO DATA ";
 
-            int  n = dataGridView2.Rows.Add();
+            int n = dataGridView2.Rows.Add();
 
-            if(Major == "staff")
+            if (Major == "staff")
             {
                 staff Staff = new staff();
 
@@ -94,7 +94,7 @@ namespace Lab_Abstractions
                 dataGridView2.Rows[n].Cells[1].Value = th.SSID;
                 dataGridView2.Rows[n].Cells[3].Value = data;
             }
-            if(Major == "student")
+            if (Major == "student")
             {
                 student student = new student();
 
@@ -115,34 +115,34 @@ namespace Lab_Abstractions
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if(dataGridView2.Rows.Count > 0)
+            if (dataGridView2.Rows.Count > 0)
             {
-                SaveFileDialog save = new SaveFileDialog();
-                save.Filter =  "CSV(*.csv) |*.csv";
+                SaveFileDialog saveFileDialog = new SaveFileDialog();
+                saveFileDialog.Filter = "CSV(*.csv)|*.csv";
                 bool fileError = false;
-                if (save.ShowDialog() == DialogResult.OK)
+                if (saveFileDialog.ShowDialog() == DialogResult.OK)
                 {
-
-                    if (fileError)
+                    if (!fileError)
                     {
                         try
                         {
-                            int columCount = dataGridView2.Columns.Count;
-                            string column = " ";
+                            int columnCount = dataGridView2.Columns.Count;
+                            string column = "";
                             string[] outputCSV = new string[dataGridView2.Rows.Count + 1];
-                            for (int i = 0; i < columCount; i++)
+                            for (int i = 0; i < columnCount; i++)
                             {
                                 column += dataGridView2.Columns[i].HeaderText.ToString() + ",";
                             }
                             outputCSV[0] += column;
-                            for (int i = 1; (i - i) < dataGridView2.Rows.Count; i++)
+                            for (int i = 1; (i - 1) < dataGridView2.Rows.Count; i++)
                             {
-                                for (int j = 0; j < columCount; j++)
+                                for (int j = 0; j < columnCount; j++)
                                 {
                                     outputCSV[i] += dataGridView2.Rows[i - 1].Cells[j].Value.ToString() + ",";
                                 }
                             }
-                            File.WriteAllLines(save.FileName, outputCSV, Encoding.UTF8);
+
+                            File.WriteAllLines(saveFileDialog.FileName, outputCSV, Encoding.UTF8);
                         }
                         catch (Exception ex)
                         {
